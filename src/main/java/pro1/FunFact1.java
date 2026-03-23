@@ -8,7 +8,11 @@ public class FunFact1 {
     /**
      * @return TODO: Počet obcí, které mají více než 10 000 obyvatel
      */
-    public static int getFunFact(List<Muni> data) {
-       return 0;
+    public static long getFunFact(List<Muni> data) {
+       var result = data
+               .stream()
+               .filter(m->m.getPopulation() > 10_000)
+               .count();
+       return result;
     }
 }
