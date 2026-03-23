@@ -12,4 +12,11 @@ public class FunFact7 {
     public static String getFunFact(List<Muni> data) {
         return null;
     }
+
+    /**
+     * @return TODO: Název obce, jejíž název má nejvíce slov délky alespoň 3
+     */
+    public static String getFunFactStrict(List<Muni> data) {
+        return null;
+    }
 }

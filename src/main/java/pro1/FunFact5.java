@@ -13,4 +13,12 @@ public class FunFact5 {
     public static List<String> getFunFact(List<Muni> data, int count) {
         return null;
     }
+
+    /**
+     * @return TODO: Názvy obcí s nejméně obyvateli, oddělené čárkou
+     * @param count: počet hledaných obcí
+     */
+    public static String getFunFactJoined(List<Muni> data, int count) {
+        return null;
+    }
 }

@@ -18,4 +18,16 @@ public class FunFact5Test
                 result
         );
     }
+
+    @Test
+
+    void test01Joined()
+    {
+        var data = TestDataUtils.getTestData();
+        var result = FunFact5.getFunFactJoined(data,3);
+        assertEquals(
+                "Malá Lhota,Velmi Malá Lhota,Lhota nad Labem",
+                result
+        );
+    }
 }
